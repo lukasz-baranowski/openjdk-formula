@@ -1,0 +1,12 @@
+openjdk:
+  # Choose open jdk version to install, defaults to 8.
+  version: 8
+
+  # The name of the package to be installed, default is dependant on OS family
+  #package: 'jre-1.' + java_version + '.0-openjdk.x86_64' # for RedHat
+  #package: 'java-' + java_version + '-openjdk-amd64' # for Debian
+
+  # Path to java executable which is registered in alternatives, dependant on
+  # OS family
+  #java_path: /usr/lib/jvm/jre-1.' + java_version + '.0-openjdk.x86_64/jre/bin/java' # for RedHat
+  #java_path: /usr/lib/jvm/java-' + java_version + '-openjdk-amd64/jre/bin/java' # for Debian
